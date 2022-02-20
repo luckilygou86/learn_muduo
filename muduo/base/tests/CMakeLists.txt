@@ -1,0 +1,9 @@
+add_executable(Atomic_unittest Atomic_unittest.cc)
+target_link_libraries(Atomic_unittest muduo_base)
+
+add_executable(Exception_test Exception_test.cc)
+target_link_libraries(Exception_test muduo_base)
+
+add_executable(Timestamp_unittest Timestamp_unittest.cc)
+target_link_libraries(Timestamp_unittest muduo_base)
+
