@@ -3,6 +3,10 @@
 #include <functional>
 #include <vector>
 #include <stdio.h>
+#include <signal.h>
+#include <iostream>
+
+using namespace std;
 
 class Bar
 {
@@ -20,8 +24,12 @@ class Bar
 
     func = std::bind(&Bar::callback, this);
     func();
-
-    throw muduo::Exception("oops");
+    char *c = new char[10];
+    delete [] c;
+    c=NULL;
+    cout << c[2] << endl;
+    //printf("c = %s\n", c);
+    //throw muduo::Exception("oops");
   }
 
  private:
@@ -37,15 +45,22 @@ void foo()
   b.test();
 }
 
+void back_fun(int sig)
+{
+  printf("Stack---------:\n%s\n", muduo::CurrentThread::stackTrace(true).c_str());
+  exit(1);
+}
+
 int main()
 {
-  try
-  {
+  signal(SIGSEGV, back_fun);
+ /*  try
+  { */
     foo();
-  }
-  catch (const muduo::Exception& ex)
+  //}
+  /* catch (const muduo::Exception& ex)
   {
     printf("reason: %s\n", ex.what());
     printf("stack trace:\n%s\n", ex.stackTrace());
-  }
+  } */
 }

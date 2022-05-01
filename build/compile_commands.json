@@ -1,0 +1,127 @@
+[
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/muduo_base.dir/Condition.cc.o -c /root/muduo_test/learn_muduo/muduo/base/Condition.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/Condition.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/muduo_base.dir/CountDownLatch.cc.o -c /root/muduo_test/learn_muduo/muduo/base/CountDownLatch.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/CountDownLatch.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/muduo_base.dir/CurrentThread.cc.o -c /root/muduo_test/learn_muduo/muduo/base/CurrentThread.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/CurrentThread.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/muduo_base.dir/Date.cc.o -c /root/muduo_test/learn_muduo/muduo/base/Date.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/Date.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/muduo_base.dir/FileUtil.cc.o -c /root/muduo_test/learn_muduo/muduo/base/FileUtil.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/FileUtil.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/muduo_base.dir/Timestamp.cc.o -c /root/muduo_test/learn_muduo/muduo/base/Timestamp.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/Timestamp.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/muduo_base.dir/Exception.cc.o -c /root/muduo_test/learn_muduo/muduo/base/Exception.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/Exception.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/muduo_base.dir/LogFile.cc.o -c /root/muduo_test/learn_muduo/muduo/base/LogFile.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/LogFile.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/muduo_base.dir/Logging.cc.o -c /root/muduo_test/learn_muduo/muduo/base/Logging.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/Logging.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/muduo_base.dir/LogStream.cc.o -c /root/muduo_test/learn_muduo/muduo/base/LogStream.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/LogStream.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/muduo_base.dir/ProcessInfo.cc.o -c /root/muduo_test/learn_muduo/muduo/base/ProcessInfo.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/ProcessInfo.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/muduo_base.dir/Thread.cc.o -c /root/muduo_test/learn_muduo/muduo/base/Thread.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/Thread.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/muduo_base.dir/TimeZone.cc.o -c /root/muduo_test/learn_muduo/muduo/base/TimeZone.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/TimeZone.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base/tests",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/Atomic_unittest.dir/Atomic_unittest.cc.o -c /root/muduo_test/learn_muduo/muduo/base/tests/Atomic_unittest.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/tests/Atomic_unittest.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base/tests",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/Exception_test.dir/Exception_test.cc.o -c /root/muduo_test/learn_muduo/muduo/base/tests/Exception_test.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/tests/Exception_test.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base/tests",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/LogFile_test.dir/LogFile_test.cc.o -c /root/muduo_test/learn_muduo/muduo/base/tests/LogFile_test.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/tests/LogFile_test.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base/tests",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/LogStream_test.dir/LogStream_test.cc.o -c /root/muduo_test/learn_muduo/muduo/base/tests/LogStream_test.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/tests/LogStream_test.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base/tests",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/SingletonThreadLocal_test.dir/SingletonThreadLocal_test.cc.o -c /root/muduo_test/learn_muduo/muduo/base/tests/SingletonThreadLocal_test.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/tests/SingletonThreadLocal_test.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base/tests",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/LogStream_bench.dir/LogStream_bench.cc.o -c /root/muduo_test/learn_muduo/muduo/base/tests/LogStream_bench.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/tests/LogStream_bench.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base/tests",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/Singleton_test.dir/Singleton_test.cc.o -c /root/muduo_test/learn_muduo/muduo/base/tests/Singleton_test.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/tests/Singleton_test.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base/tests",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/Thread_test.dir/Thread_test.cc.o -c /root/muduo_test/learn_muduo/muduo/base/tests/Thread_test.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/tests/Thread_test.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base/tests",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/Timestamp_unittest.dir/Timestamp_unittest.cc.o -c /root/muduo_test/learn_muduo/muduo/base/tests/Timestamp_unittest.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/tests/Timestamp_unittest.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base/tests",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/ThreadLocal_test.dir/ThreadLocal_test.cc.o -c /root/muduo_test/learn_muduo/muduo/base/tests/ThreadLocal_test.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/tests/ThreadLocal_test.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/muduo/base/tests",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/ThreadLocalSingleton_test.dir/ThreadLocalSingleton_test.cc.o -c /root/muduo_test/learn_muduo/muduo/base/tests/ThreadLocalSingleton_test.cc",
+  "file": "/root/muduo_test/learn_muduo/muduo/base/tests/ThreadLocalSingleton_test.cc"
+},
+{
+  "directory": "/root/muduo_test/learn_muduo/build/tests",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/root/muduo_test/learn_muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0   -o CMakeFiles/bsa.dir/bsa.cc.o -c /root/muduo_test/learn_muduo/tests/bsa.cc",
+  "file": "/root/muduo_test/learn_muduo/tests/bsa.cc"
+}
+]

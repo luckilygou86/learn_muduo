@@ -1,7 +1,17 @@
 set(base_SRCS
-  Timestamp.cc
+  Condition.cc
+  CountDownLatch.cc
   CurrentThread.cc
+  Date.cc
+  FileUtil.cc
+  Timestamp.cc
   Exception.cc
+  LogFile.cc
+  Logging.cc
+  LogStream.cc
+  ProcessInfo.cc
+  Thread.cc
+  TimeZone.cc
   )
 
 add_library(muduo_base ${base_SRCS})

@@ -1,0 +1,217 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "muduo/base",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "muduo/base",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "muduo/base/tests",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "muduo/base/tests",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"build" : "tests",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "muduo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Atomic_unittest::@b5c12be000e3eb5d234f",
+					"jsonFile" : "target-Atomic_unittest-Debug-22b2066623ac5f8ced80.json",
+					"name" : "Atomic_unittest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Exception_test::@b5c12be000e3eb5d234f",
+					"jsonFile" : "target-Exception_test-Debug-18c54c0a6e434b24fe71.json",
+					"name" : "Exception_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "LogFile_test::@b5c12be000e3eb5d234f",
+					"jsonFile" : "target-LogFile_test-Debug-f47e9ad0a2f4af968dcb.json",
+					"name" : "LogFile_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "LogStream_bench::@b5c12be000e3eb5d234f",
+					"jsonFile" : "target-LogStream_bench-Debug-3bdcd0e42577a2c3a45b.json",
+					"name" : "LogStream_bench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "LogStream_test::@b5c12be000e3eb5d234f",
+					"jsonFile" : "target-LogStream_test-Debug-4e705e1d5342c9a62e02.json",
+					"name" : "LogStream_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SingletonThreadLocal_test::@b5c12be000e3eb5d234f",
+					"jsonFile" : "target-SingletonThreadLocal_test-Debug-d7f0d24dfd845fb5de78.json",
+					"name" : "SingletonThreadLocal_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Singleton_test::@b5c12be000e3eb5d234f",
+					"jsonFile" : "target-Singleton_test-Debug-fdbaf6ddffcb848d49e6.json",
+					"name" : "Singleton_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ThreadLocalSingleton_test::@b5c12be000e3eb5d234f",
+					"jsonFile" : "target-ThreadLocalSingleton_test-Debug-89d48619c1d8ee135fa6.json",
+					"name" : "ThreadLocalSingleton_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ThreadLocal_test::@b5c12be000e3eb5d234f",
+					"jsonFile" : "target-ThreadLocal_test-Debug-a3dc70345c7564a1b8ef.json",
+					"name" : "ThreadLocal_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Thread_test::@b5c12be000e3eb5d234f",
+					"jsonFile" : "target-Thread_test-Debug-87ae06d7c8621dab878c.json",
+					"name" : "Thread_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Timestamp_unittest::@b5c12be000e3eb5d234f",
+					"jsonFile" : "target-Timestamp_unittest-Debug-18d2ce6c2ad68baee279.json",
+					"name" : "Timestamp_unittest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bsa::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-bsa-Debug-01267be3e1cd2a048a1a.json",
+					"name" : "bsa",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "muduo_base::@af02cc837cde80c48ca0",
+					"jsonFile" : "target-muduo_base-Debug-acfc48a50666ed055a4f.json",
+					"name" : "muduo_base",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/muduo_test/learn_muduo/build",
+		"source" : "/root/muduo_test/learn_muduo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

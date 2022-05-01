@@ -4,11 +4,9 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/root/muduo_test/learn_muduo/**",
-                "/usr/include"
+                "/root/muduo_test/learn_muduo"
             ],
-            "defines": [
-            ],
+            "defines": [],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "gnu17",
             "cppStandard": "gnu++14",

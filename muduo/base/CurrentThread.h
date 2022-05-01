@@ -13,10 +13,12 @@ namespace muduo
 namespace CurrentThread
 {
   // internal
-  extern __thread int t_cachedTid;
-  extern __thread char t_tidString[32];
+  //__thread 修饰的变量是线程局部储存的 __thread 修饰的话是每个线程范围内的全局变量，每个线程都有一份
+  //__thread 只能修饰POD类型（与c兼容的原始数据。但是用户自定义的构造函数或虚函数不是
+  extern __thread int t_cachedTid;      //线程真实pid（tid）的缓存 是为了减少::syscall(SYS_gettid)系统调用
+  extern __thread char t_tidString[32]; //这是tid的字符串表示形式
   extern __thread int t_tidStringLength;
-  extern __thread const char* t_threadName;
+  extern __thread const char* t_threadName; //每个线程的名称
   void cacheTid();
 
   inline int tid()

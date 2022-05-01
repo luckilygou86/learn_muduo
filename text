@@ -1,0 +1,16 @@
+tid=14928, constructing 0x55bdb048bed0
+
+tid=14929, constructing 0x7f2910000b60
+tid=14929, 0x7f2910000b60 name=
+
+tid=14930, constructing 0x7f2908000b60
+tid=14930, 0x7f2908000b60 name=
+
+tid=14929, 0x7f2910000b60 name=thread1
+tid=14930, 0x7f2908000b60 name=thread2
+
+tid=14929, destructing 0x7f2910000b60 thread1
+tid=14930, destructing 0x7f2908000b60 thread2
+
+tid=14928, 0x55bdb048bed0 name=main one
+tid=14928, destructing 0x55bdb048bed0 main one
